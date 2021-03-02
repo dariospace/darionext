@@ -21,7 +21,8 @@ export const Footer: React.FC<{
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Unlicensed</div>
+      <div className={styles.copyright}>unlicensed</div>
+      <div className={styles.copyright}>source</div>
 
       <div className={styles.social}>
         {config.github && (

@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Dario Space',
-  domain: 'dariospace.com',
+  domain: 'darionext.vercel.app/',
   author: 'Dario Space',
 
   // open graph metadata (optional)
