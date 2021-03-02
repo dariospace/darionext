@@ -23,12 +23,12 @@ export const Footer: React.FC<{
     <footer className={styles.footer}>
       <div className={styles.copyright}>unlicensed</div>
       <a
-          className={styles.copyright}
-          href={`https://github.com/${config.github}/darionext`}
-          title='source'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
+        href={`https://github.com/${config.github}/darionext`}
+        title='source'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <div className={styles.copyright}>source</div>
       </a>
 
       <div className={styles.social}>
